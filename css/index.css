@@ -1005,3 +1005,7 @@
     object-fit: cover;
   }
 }
+#cs-navigation .cs-logo {
+  filter: invert(42%) sepia(89%) saturate(1827%) hue-rotate(192deg)
+    brightness(100%) contrast(103%);
+}
