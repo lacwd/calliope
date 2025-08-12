@@ -130,7 +130,7 @@
 /* Desktop - 1300px (To make image background parallax) */
 @media only screen and (min-width: 81.25rem) {
   #hero-81 {
-    background: url("./assets/images/hero1.jpg");
+    background: url("//assets/images/hero1.jpg");
     background-size: cover;
     background-position: center 2%; /* shifts image down */
     background-repeat: no-repeat;
