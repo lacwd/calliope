@@ -130,9 +130,12 @@
 /* Desktop - 1300px (To make image background parallax) */
 @media only screen and (min-width: 81.25rem) {
   #hero-81 {
-    height: 100vh; /* make sure hero fills viewport height */
-    background: url("/assets/images/hero1.jpg") no-repeat center 20px fixed;
+    background: url("/assets/images/hero1.jpg");
     background-size: cover;
+    background-position: center 2%; /* shifts image down */
+    background-repeat: no-repeat;
+    /* makes the parallax effect */
+    background-attachment: fixed;
   }
   #hero-81 .cs-background img {
     display: none;
